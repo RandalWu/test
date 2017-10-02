@@ -1,0 +1,35 @@
+/* the element header indicates that all of that element will have that style*/
+body {
+    color: #FFAA55; /* Color can be in keyword or hex*/
+}
+
+
+header{
+
+    height: 50vh;
+    color: red;
+}
+
+/* The universal selector selects everything*/
+*p {
+    color: #000;
+}
+
+/* The id selectore dictates the style of that particular id*/
+#list {
+    color: green;
+}
+
+/* The class seelctor dictates the syle for a certain class*/
+.list-class {
+    background-color: #FFAA55;
+}
+
+.list-class-1 {
+    background-color: #0099BB;
+}
+
+/* The Hover selector is used to cover mouse over styles */
+a:hover {
+    background-color: pink;
+}

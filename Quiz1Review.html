@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>TEST TEST TEST</title>
+    <!-- viewport gives responsive viewing -->
+    <meta name="viewport" content="width=device-width" /> 
+    
+    <!-- The link tag in this case tells the doc where to find the stylesheet-->
+    <link rel="stylesheet" href="Quiz1ReviewStyle.css" type="text/css">
+</head>
+
+<body>
+    <header> <!--Each header gets smaller as the header increases-->
+        <h1>This is the first header</h1>
+        <h2>This is the second header</h2>
+        <h3>This is the third header</h3>
+        <h4>This is the fourth header</h4>
+        <h5>This is the fith header</h5>
+        <h6>This is the sixth</h6>
+    </header>
+
+    <picture>
+        <!-- The <picture> tag gives web developers more flexibility in specifying image resources. -->
+
+        <source srcset="3.jpg" media="(min-width: 800px)" title="Hello!">
+        <source srcset="2.jpg" media="(min-width: 600px)" title="Hello!">
+        <source srcset="1.jpg" media="(min-width: 480px)" title="Hello!">
+
+       <!-- src is the source of the image, the alt is what displays if the image doesn't load, and the title is what shows when you hover over it-->
+        <img src="1.jpg" alt="RAWR" title="Hello!">
+    </picture>
+
+    <nav>
+        <li>Hello!</li>
+        <li>Fellow!</li>
+        <li>Dudes!</li>
+    </nav>
+</body>
+
+</html>

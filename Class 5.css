@@ -1,0 +1,12 @@
+#list {
+   color: green;
+}
+.list-class {
+    background-color:#FFAA55;
+}
+.list-class-1 {
+    background-color: #0099BB;
+}
+a:hover {
+    background-color: pink;
+}
